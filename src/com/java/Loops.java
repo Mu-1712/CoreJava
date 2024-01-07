@@ -30,7 +30,7 @@ public class Loops {
 
 
 
-        /* Program to print multi[plication of a goven number?
+        //Program to print multi[plication of a goven number?
 
         int i;
 
@@ -44,9 +44,9 @@ public class Loops {
 
         for(i=1;i<=n;i++){
 
-            System.out.printf("%d * %d=%d\n", n, i, n*i);
+            System.out.printf("%d * %d = %d\n", n, i, n*i);
 
-        }*/
+        }
 
 
 
@@ -54,21 +54,21 @@ public class Loops {
 
         //Program to print multi[plication of a given number in reverse order?
 
-        int i;
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("enter a number;");
-
-        int n = sc.nextInt();
-
-        System.out.println("the multiplication of "+n+" is");
-
-        for(i=10;i>=1;i--){
-
-            System.out.printf("%d * %d=%d\n", n, i, n*i);
-
-        }
+//        int i;
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("enter a number;");
+//
+//        int n = sc.nextInt();
+//
+//        System.out.println("the multiplication of "+n+" is");
+//
+//        for(i=10;i>=1;i--){
+//
+//            System.out.printf("%d * %d=%d\n", n, i, n*i);
+//
+//        }
 
 
 
