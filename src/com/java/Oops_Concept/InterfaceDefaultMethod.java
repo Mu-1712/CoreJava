@@ -84,7 +84,7 @@ class phone extends mobile implements Camera, wifi{
 
 }
 
-public class DefaultMethod{
+public class InterfaceDefaultMethod{
 
     public static void main(String[] args) {
 
