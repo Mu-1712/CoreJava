@@ -2,7 +2,7 @@ package com.java;
 
 import java.util.ArrayList;
 
-public class ArrayListAdd {
+public class ArrayList_AddRemove {
     public static void main(String[] args){
         ArrayList<String> Students = new ArrayList<String>();
         //add() method
