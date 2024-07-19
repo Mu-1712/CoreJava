@@ -36,6 +36,7 @@ public class ArrayDeQueueEx {
         //deque.poll();
         //deque.pollFirst();//it is same as poll()
         dq.pollLast();
+        
         System.out.println("After pollLast() Traversal...");
         for(String s:dq){
             System.out.println(s);

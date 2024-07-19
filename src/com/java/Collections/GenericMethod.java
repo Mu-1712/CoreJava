@@ -6,7 +6,7 @@ public class GenericMethod {
             printData(1446);
 
             GenericMethod gmd = new GenericMethod();
-//            gmd.doubleData("Hii");
+            // gmd.doubleData("Hii");
             gmd.doubleData(1562);
     }
     static <E> void printData(E data){

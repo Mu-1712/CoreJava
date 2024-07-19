@@ -21,8 +21,8 @@ public class GenericsClass {
     public static void main(String args[]){
 
         //Generic with Single DataType parameter
-        Cat<String> c = new Cat<>("JR4A1"); //here we are using String Type
-        Cat<Integer> c1 = new Cat<>(41); //here we are using Integer Type
+        Cat<String> c = new Cat<>("JR4A1"); //here we are passing String DataType
+        Cat<Integer> c1 = new Cat<>(41); //here we are passing Integer DataType
         System.out.println(c1.getId());
 
         //Generic with Multiple DataType parameter
