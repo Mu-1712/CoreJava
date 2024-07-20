@@ -1,8 +1,7 @@
-package com.java.Collections;
+package com.java.Collections.Map;
 
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.TreeMap;
 
 public class HashTableEx {
     public static void main(String[] args){
