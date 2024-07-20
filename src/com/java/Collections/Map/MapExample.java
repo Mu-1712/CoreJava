@@ -1,24 +1,9 @@
-package com.java.Collections;
+package com.java.Collections.Map;
 
 import java.util.*;
 
-public class MapEx {
+public class MapExample {
     public static void main(String[] args){
-
-        //Non-Generic("Old Style")
-        System.out.println("Non-Generic(\"Old Style\")");
-        Map map = new HashMap();
-        map.put(1, "Home");
-        map.put(2, "Apartment");
-        map.put(3, "Villa");
-        map.put(4, "Bangla");
-
-        Set set = map.entrySet();
-        Iterator itr = set.iterator();
-        while (itr.hasNext()){
-            Map.Entry entry = (Map.Entry)itr.next();
-            System.out.println(entry.getKey() + " " + entry.getValue());
-        }
 
         //Generic("New Style")
         System.out.println("Generic(\"New Style\")");
@@ -34,7 +19,7 @@ public class MapEx {
 
         //Map Example: comparingByKey()
         System.out.println("Map Example: comparingByKey()");
-        map.entrySet()
+        mp.entrySet()
                 .stream()
                 .sorted(Map.Entry.comparingByKey())
                 //at atime only one Comparator work's, uncomment either one

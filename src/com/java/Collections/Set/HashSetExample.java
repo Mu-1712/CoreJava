@@ -8,10 +8,10 @@ public class HashSetExample {
         Set<String> set = new HashSet<>();
         //Add Method
         System.out.println("Add() Method In HashSet");
-        set.add("Aa");
-        set.add("Bb");
         set.add("Cc");
+        set.add("Aa");
         set.add("Dd");
+        set.add("Bb");
         set.add("Dd"); //doesnt add bcuz its duplicate
         System.out.println("The size of Set is : " + set.size());
         System.out.println("Initial Elements" +set);

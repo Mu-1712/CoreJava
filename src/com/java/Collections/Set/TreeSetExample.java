@@ -2,15 +2,16 @@ package com.java.Collections;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class TreeSetEx {
+public class TreeSetExample {
     public static  void main(String[] args){
 
        TreeSet<String> ts = new TreeSet<String>();
+        ts.add("C");
        ts.add("A");
+        ts.add("E");
        ts.add("B");
-       ts.add("C");
        ts.add("D");
-       ts.add("E");
+
         //Printing Elements in acsending order, which is default in Treeset
         System.out.println("Printing Elements in acsending order");
        Iterator<String> i = ts.iterator();
