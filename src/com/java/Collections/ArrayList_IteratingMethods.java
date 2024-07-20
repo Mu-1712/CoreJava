@@ -1,10 +1,9 @@
 package com.java;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-public class ArrayListIteratingMethods {
+public class ArrayList_IteratingMethods {
     public static void main(String[] args) {
 
         // 1)ArrayList Example
@@ -44,22 +43,7 @@ public class ArrayListIteratingMethods {
             System.out.println(list.get(i));
         }
 
-        // 6) Sort ArrayList
-        System.out.println("Sorting ArrayList Using Collections.sort() Method");
-        Collections.sort(list);
-        for (String fruit : list) {
-            System.out.println(fruit);
-        }
-
-        // 7) get and set in ArrayList
-        System.out.println("get and set in ArrayList");
-        System.out.println("Returning element using get():  " + list.get(3));
-        list.set(2, "Pomegranate");
-        for (String fruit : list) {
-            System.out.println(fruit);
-        }
-
-        // 9)Traversing list through forEachRemaining() method:
+        // 7)Traversing list through forEachRemaining() method:
         System.out.println("Traversing list through forEachRemaining() method:");
         Iterator<String> itr1=list.iterator();
         itr1.forEachRemaining(a-> //Here, we are using lambda expression
