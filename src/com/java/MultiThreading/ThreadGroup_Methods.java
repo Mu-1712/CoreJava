@@ -42,7 +42,7 @@ class myThread extends Thread {
             //Max priority in ThreadGroup
             int priority = group.getMaxPriority();
             System.out.println("The maximum priority of the Group: " + priority);
-            
+
             //Get parentThreadGroup
             System.out.println("The ParentThreadGroup for " + group.getName() + " is " + group.getParent().getName());
             System.out.println("The ParentThreadGroup for " + group2.getName() + " is " + group2.getParent().getName());
