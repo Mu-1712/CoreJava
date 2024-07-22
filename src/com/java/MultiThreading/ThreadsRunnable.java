@@ -1,4 +1,4 @@
-package com.java;
+package com.java.MultiThreading;
 
 class MyRunnableThread1 implements Runnable {
 
@@ -8,7 +8,7 @@ class MyRunnableThread1 implements Runnable {
 
         int i = 0;
 
-        while (i < 50) {
+        while (i < 5) {
 
             System.out.println("he is cooking...");
 
@@ -30,7 +30,7 @@ class MyRunnableThread2 implements Runnable{
 
         int i = 0;
 
-        while (i < 50) {
+        while (i < 5) {
 
             System.out.println("he is chatting with her...");
 
